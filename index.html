@@ -24,11 +24,11 @@
         <img src="./images/logo.svg" alt="logo-image">
       </div>
   
-      <span  id="hamburger-icon">
-        <img src="./images/icon-hamburger.svg" alt="hamburger icon">
+      <span id="hamburger-icon">
+        <img src="./images/icon-hamburger.svg" alt="hamburger icon" style="cursor: pointer;">
       </span>
   
-      <div class="navbar-links-container">
+      <div class="navbar-links-container hidden">
   
         <ul class="navbar-list">
           <li class="navbar-link">
@@ -44,7 +44,7 @@
           </li>
     
           <li class="navbar-link">
-            <a href="#" class="navbar-anchor">Contact</a>
+            <a href="#" class="navbar-anchor" id="contact-link">Contact</a>
           </li>
   
           
@@ -64,11 +64,24 @@
   <main>
 
     <section class="welcome-container">
+
+      <div class="main-page-container">
+        <h1 class="main-page-header">
+          WE ARE CREATIVES
+        </h1>
+
+        <img src="./images/icon-arrow-down.svg" alt="arrow down icon">
+      </div>
+
+
       <picture>
+        <source srcset="./images/mobile/image-header.jpg"
+            media="(max-width: 570px)">
         <img src="./images/desktop/image-header.jpg" alt="header image" class="header-image">
       </picture>
     </section>
 
+    <h4>HELLO</h4>
 
 
   </main>
