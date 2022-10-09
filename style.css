@@ -291,6 +291,37 @@ body{
     grid-template-columns: 1fr 1fr;
 }
 
+.page-footer{
+    background-color: var(--dark-moderate-cyan);
+    color: var(--dark-desaturated-cyan);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.footer-logo path{
+    fill: var(--dark-desaturated-cyan);
+}
+
+.footer-list{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.footer-link{
+    padding: 2rem 1rem;
+    font-family: var(--font-barlow);
+}
+
+.social-icons{
+    display: flex;
+    gap: 1rem;
+}
+
 @media only screen and (max-width: 570px) {
 
     .welcome-container{
