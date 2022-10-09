@@ -17,6 +17,10 @@
     --font-fraunces: 'Fraunces', serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -115,6 +119,11 @@ body{
     border-radius: 1rem;
 }
 
+#contact-link:hover{
+    background-color: #97dcff;
+    color: var(--white);
+}
+
 .arrow-down-icon{
     width: 100%;
     height: 100%;
@@ -168,6 +177,7 @@ body{
 
 .learn-more-btn{
     align-self: flex-start;
+    cursor: pointer;
 }
 
 .bottom-container-img{
@@ -314,12 +324,29 @@ body{
 
 .footer-link{
     padding: 2rem 1rem;
-    font-family: var(--font-barlow);
+    font-family: var(--font-barlow);   
+}
+
+.footer-link a:hover{
+    cursor: pointer;
+    color: var(--white);
 }
 
 .social-icons{
     display: flex;
     gap: 1rem;
+}
+
+
+.icon-wrapper svg path:hover{
+    fill: white;
+    cursor: pointer;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: var(--dark-desaturated-cyan);
+    transition: all .2s ease-in-out;
 }
 
 @media only screen and (max-width: 570px) {
